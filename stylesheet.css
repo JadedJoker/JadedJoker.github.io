@@ -1,0 +1,252 @@
+body {
+  background-image: url("background.png");
+  background-size: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  width: 100vw;
+    
+
+}
+
+.mainImage{
+  position: relative;
+  width: 100vw;
+    
+}
+
+.topleftheader {
+  top: 50px;
+  left: 27%;
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 30px;
+  
+}
+
+.box {
+  border: 1px solid gray;
+  padding: 8px;
+  width: 80%;
+  
+}
+
+.box2 {
+  border: 20px solid white;
+  width: 45%;
+  height: 400px;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  
+}
+
+.sidePic {
+  left: 84%;
+  bottom: 0;
+  width: 225px;
+  height: 512px;
+  position: fixed;
+}
+
+.moveLeft {
+  left: 9%;
+  width: 73%;
+  position: relative;
+}
+
+.center {
+  left: 32%;
+  width: 40%;
+  position: relative;
+}
+
+.row {
+  position: absolute;
+  bottom:15%;
+  left: 15%;
+  width: 80%;
+}
+
+pIntro {
+  width: 80%;
+  color:#FFFACD;
+  letter-spacing: 2px;
+}
+
+pFooter{
+  font-family: "glacial_indifferenceregular", Arial, sans-serif;
+  color: black;
+  letter-spacing: 2px;
+  padding-top: 60px;
+  position: absolute;
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('SubtitleFont/glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('SubtitleFont/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  font-family: "glacial_indifferenceregular", Arial, sans-serif;
+  color: #FFFACD;
+  font-size: 30px;
+  letter-spacing: 3px;
+
+}
+
+@font-face {
+    font-family: 'anandaregular';
+    src: url('Ananda/ananda_personal_use-webfont.woff2') format('woff2'),
+         url('Ananda/ananda_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h4{
+  font-family: "anandaregular", Arial, sans-serif;
+  color: white;
+  font-size: 85px;
+  text-align: center;
+    
+}
+
+pheader {
+  font-family: "glacial_indifferenceregular", Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  position: absolute;
+
+}
+
+@font-face {
+    font-family: 'library_3_amregular';
+    src: url('TitleFont/library3am-5v3z-webfont.woff2') format('woff2'),
+         url('TitleFont/library3am-5v3z-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+font-family: "library_3_amregular", Arial, sans-serif;
+color: black;
+    
+}
+
+p {
+  font-family: "glacial_indifferenceregular", Arial, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Navigation Bar */
+/* Navigation Links */
+
+li{
+  list-style-type: none;  
+  margin: 0 1vw;
+  font-size: 3vh;
+}
+
+/*Navigation Text */
+a{
+  font-family: "glacial_indifferenceregular", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+/*Navigation Hover Text */
+a:hover{
+  background-color: #E1E1E1	;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+/*Navigation Background */
+nav{
+  width: 100vw;
+  height: 50px;
+  background-color: #EFEEF0;
+}
+
+ul{
+  text-align: center;
+  margin: 0px;
+  padding: 6px;
+  
+  /*this option by default dispose the elements in a row (flex-direction: row)*/
+  display: flex;
+}
+
